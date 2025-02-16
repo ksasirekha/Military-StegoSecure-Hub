@@ -1,5 +1,10 @@
 # Military StegoSecure Hub - README
 
+## File Navigation
+- [Main Streamlit GUI Code](https://github.com/ksasirekha/Military-StegoSecure-Hub/blob/main/Steganography%20Streamlit%20Gui.py)
+- [Decryption Code](https://github.com/ksasirekha/Military-StegoSecure-Hub/blob/main/decryption%20file.py)
+- [Encryption Code](https://github.com/ksasirekha/Military-StegoSecure-Hub/blob/main/encryption%20file.py)
+
 ## Project Overview
 Military StegoSecure Hub is a Streamlit-based application for secure image steganography in military communications. It integrates AES encryption to ensure sensitive data remains protected, making it ideal for defense operations.
 
@@ -16,10 +21,14 @@ Military StegoSecure Hub is a Streamlit-based application for secure image stega
 
 ## Usage
 - **Encrypt**: Upload an image, enter the message and passcode to encrypt.
-  ![encrypt](https://github.com/user-attachments/assets/6c79feb3-37ed-4e26-b34b-a2a7db7cf19c)
-  
+  ![encrypt](https://github.com/user-attachments/assets/6675d6ad-b38f-487c-8299-cb0181193e5c)
+- [Encryption Code](https://github.com/ksasirekha/Military-StegoSecure-Hub/blob/main/encryption%20file.py)
+
+
 - **Decrypt**: Upload an encrypted image and provide the passcode to decrypt.
-  ![decrypt](https://github.com/user-attachments/assets/1576b0ac-ae6b-4961-9892-591b4c8c1e71)
+  ![decrypt](https://github.com/user-attachments/assets/f4ae1bcc-5387-41e3-8fbd-de973e4cebdd)
+- [Decryption Code](https://github.com/ksasirekha/Military-StegoSecure-Hub/blob/main/decryption%20file.py)
+
 
 ## Future Scope
 - Extend to audio/video steganography.
@@ -32,4 +41,3 @@ Military StegoSecure Hub is a Streamlit-based application for secure image stega
 
 ## Conclusion
 This project provides a secure solution for military image steganography using AES encryption, ensuring sensitive data remains protected. The Streamlit GUI offers easy encryption and decryption with support for multiple formats, making it ideal for military communications.
-
